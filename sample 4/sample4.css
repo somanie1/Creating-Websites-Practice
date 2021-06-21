@@ -1,0 +1,97 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Segoe UI';
+
+}
+
+h2 {
+	text-align: left;
+	margin-left: 100px;
+	margin-top:50px;
+
+}
+
+#main-profile-box {
+	display:flex;
+	flex-direction: column;
+}
+
+
+.top-profile-box {
+	background-image: url(https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/16/2018/03/08114640/iStock-610259354.jpg);
+	background-size: cover;
+
+}
+
+
+.top-right {
+	display: flex; 
+	flex-direction: row;
+   justify-content: space-between;
+   text-align: right;
+   padding-right: 30px;
+
+   
+}
+
+h1 {
+	text-align: center;
+	margin-top: 150px;
+	color: orange;
+	font-size: 40px;
+
+}
+
+.our-services {
+	text-align: center;
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-size: 30px;
+
+}
+
+.boxes-corner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.text-box {
+  width: 250px;
+  height: 150px;
+  border: 0.5px;
+  border-style: solid;
+}
+
+.text-area {
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.login {
+	border: none;
+	background: orange;
+	width: 70px;
+}
+
+button {
+	background: transparent;
+	color: white;
+	border: 2px;
+}
+
+h4 {
+	color: black;
+	font-family: inherit;
+
+}
+
+

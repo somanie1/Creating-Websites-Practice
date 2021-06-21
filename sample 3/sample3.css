@@ -1,0 +1,74 @@
+body {
+	 margin: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI';
+    
+}
+
+ #main-profile-box{
+ 	padding: 20px 10px;   
+    display: flex;
+    flex-direction: row; 
+
+ }
+
+.left-profile-box {
+	 width: 60%; 
+    font-size: 16px;
+    padding: 0px 15px;
+
+}
+
+img{
+	width:700px;
+
+}
+
+.right-profile-box {
+	width: 40%;
+    padding: 15px 15px;
+    text-align: left;
+
+
+}
+
+span{
+	text-decoration: line-through;
+	color: lightblue;
+}
+
+.price-tag {
+	color: blue;
+	size: 30px;
+}
+
+button {
+	color: white;
+	width:150px;
+	border: none;
+	background-color: black;
+	padding: 20px;
+	margin-bottom: 50px;
+
+}
+
+
+.bottom-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.second-button {
+	width: 110px;
+
+}
+
+.product-specs{
+	font-size: 15px;
+	padding-bottom: 10px;
+}

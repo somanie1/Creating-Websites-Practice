@@ -1,0 +1,91 @@
+body {
+	 margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+ }
+
+.brand-name {
+	padding-left: 30px;
+	padding-top: 10px;
+	color: #14b0b9;
+	font-size: 18px;
+}
+
+.top-middle {
+	font-size: 8px;
+	display: flex;
+	justify-content: space-between;
+	text-overflow: hidden;
+	margin-left: 200px;
+	margin-right: 220px;
+	padding-top: 0px; 
+
+}
+
+
+button {
+	background-color: #14b0b9;
+	width: 100px;
+	height: 26px;
+	border: none;
+	color: white;
+}
+
+.top-right {
+	position: absolute;
+	top: 25px;
+	right: 16px;
+}
+
+.page-title {
+	font-size: 17px;
+	font-style: 'Segoe UI';
+	text-align: center;
+	margin-top: 80px;
+
+}
+
+.form {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.field-name{
+	font-size: 15px;
+
+}
+
+
+.field-box {
+	width: 330px;
+	height: 27px;
+}
+   
+
+ textarea {
+ 	width: 330px;
+ 	height: 140px;
+
+}
+
+.button-box {
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+.second-button {
+	width: 330px;
+
+}
+
+.top-list {
+	margin-left: 25px;
+	margin-right: 80px;
+	width: 45px;
+	padding-left: 5px;
+	padding-top: 0px;
+	margin-top: 0px;
+
+}   
+
