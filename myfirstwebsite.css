@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+}
+
+#main-profile-box {
+    background-color: lightcyan;
+    padding: 100px 50px;   /* this gives the main-profile-box div a padding top and bottom of 100px and a padding left and right of 50px */
+    display: flex; /* this is a special display type that allows you to set which direction you want the elements placed inside to be show ie vertically placed or horizontally placed */
+    flex-direction: row; /* flex direction works with display:flex to set the direction elements will be displayed ---- giving it a value of columns will allow the direct child elements to be shown vertically, row will make them shown horizontally */
+}
+
+.left-profile-box {
+    width: 60%; /* since in the image the left div looks to take up more horizontal space that the right div that houses the image, we can give it a width of 60% */
+    /* I will send a vn explaining how the width percentage works */
+    font-size: 16px;
+    padding: 0px 15px;
+}
+
+.right-profile-box {
+    width: 40%;
+    /*since the left div already has a width of 60%, I gave the right div 40% width to make a total of 100% */
+    padding: 0px 15px;
+}
+
+.profile-image {
+    width: 100%;
+    /* width percentage is decided based on the parent element.....the width of the parent tag is what is calculated as 100%..so here the profile image width percentage is calculated based on the width of the right profile box */
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h4 { /*comment*/
+    font-size: 30px;
+}
+
+.details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.detail-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex; /* using this again because I want to use flex direction to make things align horizontally */
+    flex-direction: row;
+}
+
+.detail-tag {
+    width: 25%;
+    font-weight: bold;
+}
+
+#social-media-box {
+    padding: 40px 50px;
+}
+
+.icon-images {
+    width: 25px;
+}
+
+/* the reason I used display:flex is because div a block element. Normally to place other elements side by side you can easily use display:inline or other methods but with divs I have found display flex to be useful in situations where you want to manually place divs side by side */
